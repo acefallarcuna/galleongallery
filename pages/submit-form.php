@@ -208,6 +208,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         echo "Error preparing the statement: " . mysqli_error($connection); // Error preparing the statement
     }
-
 }
 ?>

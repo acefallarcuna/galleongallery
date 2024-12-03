@@ -208,7 +208,6 @@ if ($stmt) {
                                 <div class="mt-1 mb-2 button-text">Text</div>
                             </div>
                         </div>
-
                     <!-- Project Title Field -->
                     <div class="mb-3">
                         <label for="projectTitle" class="form-label">Project Title</label>
