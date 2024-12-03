@@ -42,9 +42,9 @@ body {
   width: 150px;
   stroke: black;
   fill-opacity: 0;
-  stroke-width: 5px;
+  stroke-width: .2px;
   stroke-dasharray: 4500;
-  animation: draw 8s ease;
+  animation: draw 60s ease;
 }
 
 @keyframes draw {

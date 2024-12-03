@@ -1,0 +1,139 @@
+body, html {
+    background-color: white;
+}
+
+/* Navbar Items */
+.img-mail {
+    height: 2.6vh;
+    width: 1.2vw;
+}
+
+.img-bell {
+    height: 2vh;
+    width: 1vw;
+}
+
+.img-user {
+    height: 2vh;
+    width: 1vw;
+}
+
+/* Search */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 20px 20px 20px 0; /* Adjust the values as needed */
+    /* overflow: hidden; */
+}
+
+.search-bar .form-control {
+    width: 400px; /* Adjust the width as needed */
+}
+  
+.search-bar .dropdown-toggle {
+    border-radius: 20px 0 0 20px; /* Match the outer container's border radius */
+    background-color: transparent;
+    color: black;
+}
+
+.dropdown-toggle {
+    border-color: #c5c5c5;
+}
+
+.search-bar input {
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+}
+
+/* Share Your Work */
+.btn-primary {
+    border-color: #c5c5c5;
+    color: black;
+}
+
+.btn-primary:hover {
+    color: black;
+    border-color: #c5c5c5;
+    background-color: transparent; /* Change the background color to your desired hover color */
+}
+
+.btn-upload {
+    border-radius: 20px; /* Adjust the value to control the curvature */
+    background-color: transparent
+}
+
+.upload-cont {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.navbar-brand svg {
+    width: 3vw; /* Adjust the size of the SVG */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#content-container {
+    position: relative;
+}
+
+.empty-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333; /* Adjust text color */
+}
+
+/* Modal */
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+} */
